@@ -1,3 +1,43 @@
+# Code challenge
+
+We made this project with create-react-app (https://github.com/facebook/create-react-app).
+
+Clone the repo, do your work, and then send us a link to your repo so we can run it ourselves.
+
+
+## Acceptance criteria:
+
+* As a user, when I come the homepage I will see a list of all the Star Wars films, and each film's director.
+  * See the API's documentation: (https://swapi.co/documentation)
+  * If there is another API you prefer, by all means feel free to use it and display something else in the app.
+
+* As a user when I select a tile, it will appear with these styles, and the unselected tiles appear with these styles.
+
+* As a user, when I fist come to the page, the first tile is selected.
+
+* As a user on a screen width up 1025px, I will see the tiles stacked vertically, aligned to the center of the page.
+
+* As a user on a screen width wider than 1025px, I will see the tiles aligned horizontally, aligned to the center of the page, allowing tiles to wrap to a second row if needed.
+
+* As a user, when I hover over an unselected tile with a mouse, I know that I can click the tile.
+
+
+## Don't stress!
+Just work on meething the acceptance criteria. We don't want you to spend too much time on this.
+
+The point of this exercise is to understand your approach to:
+  * Fetching data and displaying it in a UI with React
+  * Responsive website layout
+  * User experience and user interface design
+  * State management
+
+If you don't finish everything in an evening, that's fine. We want to see where you are at and have some code to talk about in person.
+
+We will talk about what you would have done if you had more time.
+
+
+
+# creat-react-app documentation
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
