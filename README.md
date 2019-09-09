@@ -32,7 +32,6 @@ We made this project with create-react-app. See their documentaion here: https:/
 
 * As a user, when I select a film's tile, I can see the film's `opening_crawl` on the page (however you want!).
 
-
 ## Don't stress!
 Just work on meeting the acceptance criteria. We don't want you to spend too much time on this. The point of this exercise is to understand your approach to:
   * Fetching data and displaying it in a UI with React
@@ -41,3 +40,10 @@ Just work on meeting the acceptance criteria. We don't want you to spend too muc
   * User experience and user interface design
 
 If you don't finish everything that's fine. We want to see where you are at and have some code to talk about in person. We will talk about what you would have done if you had more time.
+
+### Technology choices
+ * If create-react-app isn't your thing, feel free to use whatever you are comfortable with. A gatsby site, or codesandbox or anything else. We just want to see it in React.
+ * If Star Wars isn't your thing either, any other API will do. We just want to see you fetch data and display it. 
+ * We use the styled-components css-in-js library. Vanilla css or another solution is great also.
+ * Feel free to use any other libraries or tools that you like.
+
