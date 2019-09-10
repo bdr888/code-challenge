@@ -1,23 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const TileWrapper = styled.div`
+const TileWrapper = styled.button`
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 1rem;
   padding: 0.5rem;
+  min-width: 250px;
   background-color: #e9e9e9;
+  border: 2px solid grey;
+  border-radius: 8px;
 `;
 
 const Title = styled.div`
-  color: black;
   margin: 0.5rem;
   font-weight: bold;
   font-size: 1rem;
 `;
 
-const SubTitle = styled.div`
-  color: black;
+const Director = styled.div`
   margin: 0.5rem;
   font-size: 0.8rem;
 `;
@@ -25,7 +27,7 @@ const SubTitle = styled.div`
 const Tile = () => (
     <TileWrapper>
       <Title>Title</Title>
-      <SubTitle>Sub-title</SubTitle>
+      <Director>Director</Director>
     </TileWrapper>
   );
 
