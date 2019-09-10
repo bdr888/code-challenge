@@ -8,11 +8,11 @@ We made this project with create-react-app. See their documentaion here: https:/
 ## Acceptance criteria:
 
 * As a user, when I come the homepage I will see a list of all the Star Wars films:
-  * Use the existing <Tile /> component to display the data.
-  * Display the `title` and the `director` from the API.
+  * Use the existing Tile component to display the data.
+  * Display the `title` and the `director` data from the API.
   * See the API's documentation: (https://swapi.co/documentation)
 
-* As a user when I select a Tile, I can see that it is selected because it has these styles applied to it:
+* As a user when I select a Tile, I can see that it is selected or not because it has these styles applied to it:
     * selected:
       * border: 2px solid black
       * box-shadow: 0px 0px 4px 4px #e9e9e9
@@ -24,7 +24,7 @@ We made this project with create-react-app. See their documentaion here: https:/
 
 * As a user, when I fist come to the page, the first tile is selected.
 
-* As a user on a screen width up 1025px, I will see the tiles stacked vertically, aligned to the center of the page.
+* As a user on a screen width up to 1025px, I will see the tiles stacked vertically, aligned to the center of the page.
 
 * As a user on a screen width wider than 1025px, I will see the tiles aligned horizontally, aligned to the center of the page, allowing tiles to wrap to another row if needed.
 
